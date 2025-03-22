@@ -5,7 +5,7 @@ from discord import app_commands
 
 from myserver import server_on
 
-bot = commands.Bot(camand_prefix='!',intents=discord.Intent.all())
+bot = commands.Bot(camand_prefix='!',intents=discord.Intents.all())
 
 
 
